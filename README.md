@@ -1,6 +1,18 @@
+Step 1
+-----
 
+Download git-completion.bash and git-prompt.sh from https://github.com/git/git/tree/master/contrib/completion
 
-add to $HOME/.bashrc
+```
+$ mv gitconfig ~/.gitconfig
+$ mv git-completion.bash ~/.git-completion.bash
+$ mv git-prompt.sh ~/.git-prompt.sh
+$ source ~/.git-completion.bash
+```
+
+Step 2
+-----
+Add to $HOME/.bashrc
 
 ``` bash
 # Prompt
@@ -32,4 +44,10 @@ export PS1=$PSW
 if [ -f "$HOME/.git-completion.sh" ]; then
   . "$HOME/.git-completion.sh"
 fi
+```
+
+then
+
+```
+$ source ~/.bashrc
 ```

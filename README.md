@@ -50,7 +50,8 @@ then
 
 ```
 $ source ~/.bashrc
+```
 
 Ref
 -----
-http://documentup.com/skwp/git-workflows-book```
+http://documentup.com/skwp/git-workflows-book
